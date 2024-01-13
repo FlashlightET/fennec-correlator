@@ -7,6 +7,8 @@ originally developed (and used) as a tool for making more accurate Kemono Friend
 
 this (and its original reason for development) can combat variations in lighting and vignette and other effects.
 
+example input and output are provided
+
 TODO: comment code and make repo public
 
 PROCESS:
@@ -17,7 +19,7 @@ PROCESS:
 4. Isolate that region from each screenshot in the new folder in like paint.net or something
 5. Change some variables in `Fennec Correlator FolderBased.py`
 6. Let it do its thing
-7. Go to the `fennec_colorrefs` and find the file with a good bit of data like level 0 or 1 or something
+7. Go to the `fennec_colorrefs` and find the file with a good bit of data like level 0 or 1 or something (see shirt filter level 1 in the example output as a reference for the optimal output to sample from)
 8. Color pick the best color manually
 9. ???
 10. Save your findings to a file, repeat for every major color component on the character
