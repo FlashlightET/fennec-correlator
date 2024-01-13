@@ -1,6 +1,9 @@
 # fennec-correlator
 extract the "true colors" of anime characters based on isolated regions from screenshots
 
+![image](https://github.com/FlashlightET/fennec-correlator/assets/29938499/6561707f-9e71-426d-855b-4d860deb59d5)
+
+
 TODO: comment code and make repo public
 
 PROCESS:
