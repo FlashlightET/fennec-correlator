@@ -5,6 +5,8 @@ extract the "true colors" of anime characters (kemono friends originally as per 
 
 originally developed (and used) as a tool for making more accurate Kemono Friends 3d models 
 
+this (and its original reason for development) can combat variations in lighting and vignette and other effects.
+
 TODO: comment code and make repo public
 
 PROCESS:
