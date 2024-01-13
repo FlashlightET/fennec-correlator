@@ -3,6 +3,7 @@ extract the "true colors" of anime characters (kemono friends originally as per 
 
 ![image](https://github.com/FlashlightET/fennec-correlator/assets/29938499/6561707f-9e71-426d-855b-4d860deb59d5)
 
+originally developed (and used) as a tool for making more accurate Kemono Friends 3d models 
 
 TODO: comment code and make repo public
 
