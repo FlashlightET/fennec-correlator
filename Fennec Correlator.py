@@ -1,4 +1,4 @@
-#Fennec Correlator?
+#Fennec Correlator? - this is the old version of the script that used a colors list, a list of screengrabbed colors sampled with a script im not releasing because its someone elses code but macguyvered
 import PIL
 from PIL import Image, ImageOps
 import matplotlib as mpl
