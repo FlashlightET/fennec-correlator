@@ -9,8 +9,6 @@ this (and its original reason for development) can combat variations in lighting
 
 example input and output are provided
 
-TODO: comment code and make repo public
-
 PROCESS:
 
 1. Make a folder of anime screenshots.
