@@ -5,8 +5,16 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 import math
 import numpy as np
-directory='arai_colorrefs/input/'
-fn='arai_faceshadow'
+#FOLDER STRUCTURE
+#character_colorrefs
+#|- input
+#   |- base folder (can be anywhere but input is the best place to put it because you can copy and rename it in-place)
+#   |- bodypart1
+#   |- bodypart2
+#|- output
+#   |- output histograms
+directory='character_colorrefs/input/'
+fn='bodypart'
 colors_list=[]
 
 import os
@@ -30,7 +38,7 @@ for i in j:
                     found+=1
             except:
                 pass
-    print(f'found {found} pixels worth of arai')
+    print(f'found {found} pixels worth')
             
 
 x1=[]
@@ -97,6 +105,6 @@ for filter_level in range(0,10):
     canvas=canvas.crop(imageBox)
     canvas=canvas.resize((canvas.width*4,canvas.height*4),resample=Image.NEAREST)
     #print(f'{bbox_x1}, {bbox_y1}, {bbox_x2}, {bbox_y2}')
-    canvas.save(f'arai_colorrefs/output/{fn}_filter-level_{filter_level}.png')
+    canvas.save(f'character_colorrefs/output/{fn}_filter-level_{filter_level}.png')
 
 #fig.show()
