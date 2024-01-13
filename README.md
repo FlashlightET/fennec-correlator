@@ -11,7 +11,7 @@ PROCESS:
 4. Isolate that region from each screenshot in the new folder in like paint.net or something
 5. Change some variables in `Fennec Correlator FolderBased.py`
 6. Let it do its thing
-7. Go to the `fennec_colorrefs` and find the file with a good bit of data not too little not too much like level 3 or something
+7. Go to the `fennec_colorrefs` and find the file with a good bit of data like level 0 or 1 or something
 8. Color pick the best color manually
 9. ???
 10. Save your findings to a file, repeat for every major color component on the character
